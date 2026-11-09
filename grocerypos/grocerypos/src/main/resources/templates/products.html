@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>GroceryPOS - Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+        <h1 class="text-2xl font-bold mb-4 text-gray-800">Grocery Inventory / Products</h1>
+        <p class="text-gray-600 mb-6">Welcome to your GroceryPOS dashboard!</p>
+        
+        <!-- Temporary placeholder table -->
+        <div class="border rounded overflow-hidden">
+            <table class="w-full text-left border-collapse">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="p-3 border-b">ID</th>
+                        <th class="p-3 border-b">Product Name</th>
+                        <th class="p-3 border-b">Price</th>
+                        <th class="p-3 border-b">Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-3 border-b text-center text-gray-500" colspan="4">No products added yet.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="mt-6">
+            <a href="/login" class="text-blue-500 hover:underline">Log out</a>
+        </div>
+    </div>
+</body>
+</html>
